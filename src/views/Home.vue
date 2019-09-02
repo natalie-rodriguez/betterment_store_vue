@@ -1,42 +1,6 @@
 <template>
   <div class="home">
     <h1>{{ message }}</h1>
-
-    <div v-for="product in products">
-      <p>name:{{ product.name }}</p>
-
-      <hr />
-    </div>
-  </div>
-</template>
-
-<style></style>
-
-<script>
-import axios from "axios";
-
-export default {
-  data: function() {
-    return {
-      message: "Welcome to Vue.js!",
-      products: []
-    };
-  },
-  created: function() {
-    console.log("i am in the created");
-    axios.get("/api/products").then(response => {
-      console.log(response.data);
-      this.products = response.data;
-    });
-  },
-  methods: {}
-};
-</script>
-
-<!-- 
-<template>
-  <div class="home">
-    <h1>{{ message }}</h1>
     <p>
       Search products:
       <input type="text" v-model="searchTerm" list="names" />
@@ -130,11 +94,4 @@ export default {
     }
   }
 };
-
-// user enters information
-//user clicks button
-// get all information that user typed in
-//send the data to the api
-//show the user the new item they have created
 </script>
- -->
