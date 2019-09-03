@@ -8,6 +8,7 @@ import ProductsEdit from "./views/ProductsEdit.vue";
 import Signup from "./views/signup.vue";
 import Login from "./views/Login.vue";
 import Logout from "./views/Logout.vue";
+import CartedProducts from "./views/CartedProducts.vue";
 
 Vue.use(Router);
 
@@ -54,6 +55,11 @@ export default new Router({
       path: "/logout",
       name: "logout",
       component: Logout
+    },
+    {
+      path: "/carted_products",
+      name: "carted_products",
+      component: CartedProducts
     },
     {
       path: "/about",

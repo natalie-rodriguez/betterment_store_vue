@@ -4,10 +4,12 @@
     <p>Price: ${{ product.price }}</p>
     <div><img v-bind:src="product.image_url" v-bind:alt="product.name" /></div>
     <p>Description: {{ product.description }}</p>
-    <p>Instock: {{ product.instock }}</p>
-    <p>Supplier: {{ product.supplier_name }}</p>
-    <button v-on:click="destroyProduct()">Destroy Product</button>
-    <router-link v-bind:to="`/products/${product.id}/edit`">Edit Product</router-link>
+    <!-- <p>Instock: {{ product.instock }}</p> -->
+    <!--  <p>Supplier: {{ product.supplier_name }}</p> -->
+    <input type="text" v-model="quantity" />
+    <button v-on:click="addtocart()">Add to Cart</button>
+
+    <!-- <router-link v-bind:to="`/products/${product.id}/edit`">Edit Product</router-link> -->
   </div>
 </template>
 
@@ -15,11 +17,14 @@
 
 <script>
 import axios from "axios";
+{
+}
 export default {
   data: function() {
     return {
       message: "Helloooooo from the show file!",
-      product: {}
+      product: {},
+      quantity: ""
     };
   },
   created: function() {
@@ -29,9 +34,10 @@ export default {
     });
   },
   methods: {
-    destroyProduct: function() {
-      axios.delete("/api/products/" + this.product.id).then(response => {
-        this.$router.push("/");
+    addtocart: function() {
+      var params = { product_id: this.product.id, quantity: this.quantity };
+      axios.post("/api/carted_products", params).then(response => {
+        console.log("carted project testing");
       });
     }
   }

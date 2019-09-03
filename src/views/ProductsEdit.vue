@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="edit">
     <h1>{{ message }}</h1>
     <form v-on:submit.prevent="editProduct()">
@@ -36,17 +36,17 @@
 <script>
 import axios from "axios";
 export default {
-  data: function() {
-    return {
-      message: "Edit Product",
-      newProductName: "",
-      newProductPrice: "",
-      newProductDescription: "",
-      newProductInstock: "",
-      NewProductSupplierId: "",
-      errors: []
-    };
-  },
+  // data: function() {
+  //   return {
+  //     message: "Edit Product",
+  //     newProductName: "",
+  //     newProductPrice: "",
+  //     newProductDescription: "",
+  //     newProductInstock: "",
+  //     NewProductSupplierId: "",
+  //     errors: []
+  //   };
+  // },
   created: function() {
     axios.get(`/api/products/${this.$route.params.id}`).then(response => {
       console.log(response.data);
@@ -83,3 +83,4 @@ export default {
   }
 };
 </script>
+ -->
