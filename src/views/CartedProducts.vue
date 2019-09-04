@@ -30,6 +30,7 @@
               <td>{{ carted_product.quantity }}</td>
               <td>
                 <strong>{{ carted_product.product_price * carted_product.quantity }}</strong>
+
                 <span v-if="false">{{ (subtotal += carted_product.product_price * carted_product.quantity) }}</span>
               </td>
               <td>
@@ -38,13 +39,13 @@
             </tr>
           </table>
 
-          <div class="col-sm-6 col-md-6">
+          <!--  <div class="col-sm-6 col-md-6">
             <a href="#" class="button red">CONTINUE SHOPPING</a>
           </div>
           <div class="col-sm-10 col-md-10 text-right">
             <a href="#" class="button">UPDATE SHOPPING CART</a>
             <a href="#" class="button">CLEAR SHOPPING CART</a>
-          </div>
+          </div> -->
           <!-- <div class="col-sm-4 col-md-4">
             <div class="shipping-outer">
               <h2>Calculate shipping</h2>
@@ -108,7 +109,7 @@
                 </li>
                 <li>
                   Cart Totals:
-                  <strong>$650.00</strong>
+                  <strong>{{ total }}</strong>
                 </li>
               </ul>
               <div class="text-center">
@@ -145,12 +146,21 @@ export default {
     axios.get("/api/carted_products").then(response => {
       console.log(response.data);
       this.carted_products = response.data;
+
+      this.carted_products.forEach(carted_products => {
+        this.subtotal += carted_product.product_price * carted_product.quantity;
+      });
+
+      this.carted_products.forEach(carted_products => {
+        this.total += carted_product.product_price * carted_product.quantity;
+      });
     });
   },
   data: function() {
     return {
       carted_products: [],
-      subtotal: 0
+      subtotal: 0,
+      total: 0
     };
   }
 };

@@ -2,7 +2,7 @@
   <div class="home">
     <section class="banner-outer">
       <!-- .banner-outer -->
-      <div class="container">
+      <div class="elcontainer">
         <!-- .banner-bg -->
         <div class="banner-bg">
           <div class="col-sm-4 col-md-4">
@@ -74,8 +74,48 @@
       <!-- .new-arrivals -->
       <div class="container">
         <div class="tittle text-center">
-          <h2>Trending Products</h2>
-          <p>Snag a free canvas Tote Bag on us with every $75 online purchase</p>
+          <h2>PLANTS DELIVERED THE RIGHT WAY</h2>
+          <p>Hand-delivered. By our team of professionals. From our plant studio in Long Island City.</p>
+          <br />
+
+          <p>
+            If you’ve ordered plants from a big box plant shipping service, you already know — they have a bad habit of
+            delivering damaged plants.
+          </p>
+          <br />
+
+          <p>We want you and your plant to live happily together, so we do things differently.</p>
+
+          <br />
+
+          <p>
+            Your plant will be hand-delivered from our studio— in Long Island City. So you get to enjoy your plant right
+            away. (Not the headache of a damaged plant and a shady return policy.)
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="tittle text-center">
+            <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
+            <p>
+              I had tried ordering plants from other companies, but they kept arriving with a damaged planter or brown
+              leaves. When I saw that My City Plants used white glove, local delivery — I knew it would be different.
+              Thankfully, I was right!”
+            </p>
+            <br />
+
+            <p>Devanté, Manhattan.</p>
+
+            <br />
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/bZvL1wM0wSc"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
         <div class="row animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
           <div v-for="product in products" class="col-md-3">
@@ -127,9 +167,9 @@
       <div class="col-sm-6 col-md-6">
         <!-- .banner-img -->
         <div class="banner-img">
-          <img src="assets/images/bg-banner.jpg" alt="about-img1" />
+          <!-- <img src="assets/images/bg-banner.jpg" alt="about-img1" /> -->
           <div class="banner-text2">
-            <h4>Products Essentials</h4>
+            <!-- <h4>Products Essentials</h4>
             <h3>Bottle With Wooden Cork</h3>
             <p>
               The Newtown sofa range is the first product Jonas Wagell has designed for Zaozuo, but one of the last to
@@ -140,7 +180,7 @@
                 Buy now /
                 <span>$196.98</span>
               </a>
-            </p>
+            </p> -->
           </div>
         </div>
         <!-- /.banner-outer -->
@@ -149,9 +189,9 @@
       <div class="col-sm-6 col-md-6">
         <!-- .banner-img -->
         <div class="banner-img">
-          <img src="assets/images/bg-banner2.jpg" alt="about-img1" />
+          <!-- <img src="assets/images/bg-banner2.jpg" alt="about-img1" /> -->
           <div class="banner-text2">
-            <h4>Products Essentials</h4>
+            <!-- <h4>Products Essentials</h4>
             <h3>Hauteville Plywood Chair</h3>
             <p>
               The Newtown sofa range is the first product Jonas Wagell has designed for Zaozuo, but one of the last to
@@ -160,207 +200,207 @@
             <p>
               <a href="#">
                 Buy now /
-                <span>$196.98</span>
-              </a>
-            </p>
+                <span>$196.98</span> -->
+            <!--  </a> -->
+            <!--  </p> -->
           </div>
         </div>
         <!-- /.banner-outer -->
       </div>
       <!-- /.banner -->
     </section>
-    <section class="new-arrivals">
-      <!-- .new-arrivals -->
-      <div class="container">
-        <div class="tittle text-center">
-          <h2>Sale Off</h2>
-          <p>tester est notare quam littera gothica quam nunc putamus parum claram!</p>
-        </div>
-        <div class="row animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-          <div class="col-5">
-            <!-- .pro-text -->
-            <div class="pro-text">
-              <!-- .pro-img -->
-              <div class="pro-img">
-                <img src="assets/images/Products/21.jpg" alt="2" />
-                <!-- .hover-img -->
-                <div class="hover-img">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="new tage">
-                  <span class="new-text">NEW</span>
-                  <span class="pres-text">-15%</span>
-                </div>
-                <!-- /.hover-img -->
+     <!-- <section class="new-arrivals">
+       .new-arrivals -->
+    <!-- <div class="container">
+      <div class="tittle text-center"> -->
+        <!-- <h2>Sale Off</h2>
+        <p>tester est notare quam littera gothica quam nunc putamus parum claram!</p> -->
+      <!-- </div> -->
+      <!-- <div class="row animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
+        <div class="col-5">
+          .pro-text -->
+          <!-- <div class="pro-text"> -->
+            <!-- .pro-img -->
+           <!--  <div class="pro-img"> -->
+              <!-- <img src="assets/images/Products/21.jpg" alt="2" /> -->
+              <!-- .hover-img -->
+              <!-- <div class="hover-img">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo">
+                      <i class="fa fa-search" aria-hidden="true"></i> -->
+                 <!--    </a>
+                  </li>
+                </ul>
               </div>
-              <!-- /.pro-img -->
-              <a href="#">Wooden container Bowl</a>
-              <a href="#" class="addtocart">+ Add to cart</a>
-              <div class="price">
-                $160.00
-                <span>200</span>
-              </div>
+              <div class="new tage">
+                <span class="new-text">NEW</span>
+                <span class="pres-text">-15%</span>
+              </div> -->
+              <!-- /.hover-img -->
+            <!-- </div> -->
+            <!-- /.pro-img -->
+           <!--  <a href="#">Wooden container Bowl</a>
+            <a href="#" class="addtocart">+ Add to cart</a>
+            <div class="price">
+              $160.00
+              <span>200</span>
             </div>
-            <!-- /.pro-text -->
-          </div>
-          <div class="col-5">
-            <!-- .pro-text -->
-            <div class="pro-text">
-              <!-- .pro-img -->
-              <div class="pro-img">
-                <img src="assets/images/Products/26.jpg" alt="2" />
-                <!-- .hover-img -->
-                <div class="hover-img">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="discount tage"><span class="discount-text">-15%</span></div>
-                <!-- /.hover-img -->
+          </div> -->
+          <!-- /.pro-text -->
+        <!-- </div>
+        <div class="col-5"> -->
+          <!-- .pro-text -->
+         <!-- <div class="pro-text"> -->
+            <!-- .pro-img -->
+            <!-- <div class="pro-img">
+              <img src="assets/images/Products/26.jpg" alt="2" /> -->
+              <!-- .hover-img -->
+              <!-- <div class="hover-img">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <!-- /.pro-img -->
-              <a href="#">Wooden container Bowl</a>
-              <a href="#" class="addtocart">+ Add to cart</a>
-              <div class="price">
-                $160.00
-                <span></span>
-              </div>
+              <div class="discount tage"><span class="discount-text">-15%</span></div> -->
+              <!-- /.hover-img -->
+           <!--  </div> -->
+            <!-- /.pro-img -->
+            <!-- <a href="#">Wooden container Bowl</a>
+            <a href="#" class="addtocart">+ Add to cart</a>
+            <div class="price">
+              $160.00
+              <span></span>
             </div>
-            <!-- /.pro-text -->
-          </div>
-          <div class="col-5">
-            <!-- .pro-text -->
-            <div class="pro-text">
-              <!-- .pro-img -->
-              <div class="pro-img">
-                <img src="assets/images/Products/24.jpg" alt="2" />
-                <!-- .hover-img -->
-                <div class="hover-img">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="new tage">
-                  <span class="new-text">NEW</span>
-                  <span class="pres-text">-15%</span>
-                </div>
+          </div> -->
+          <!-- /.pro-text -->
+        <!-- /div>
+        <div class="col-5"> -->
+          <!-- .pro-text -->
+          <!-- div class="pro-text"> -->
+            <!-- .pro-img -->
+            <!-- div class="pro-img">
+              <img src="assets/images/Products/24.jpg" alt="2" /> -->
+              <!-- .hover-img -->
+              <!-- <div class="hover-img">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="new tage">
+                <span class="new-text">NEW</span>
+                <span class="pres-text">-15%</span>
+              </div> -->
 
-                <!-- /.hover-img -->
-              </div>
-              <!-- /.pro-img -->
-              <a href="#">Wooden container Bowl</a>
-              <a href="#" class="addtocart">+ Add to cart</a>
-              <div class="price">
-                $160.00
-                <span>200</span>
-              </div>
+              <!-- /.hover-img -->
+           <!--  </div> -->
+            <!-- /.pro-img -->
+            <!-- <a href="#">Wooden container Bowl</a>
+            <a href="#" class="addtocart">+ Add to cart</a>
+            <div class="price">
+              $160.00
+              <span>200</span>
             </div>
-            <!-- /.pro-text -->
-          </div>
-          <div class="col-5">
-            <!-- .pro-text -->
-            <div class="pro-text">
-              <!-- .pro-img -->
-              <div class="pro-img">
-                <img src="assets/images/Products/17.jpg" alt="2" />
-                <!-- .hover-img -->
-                <div class="hover-img">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="discount tage"><span class="discount-text">-15%</span></div>
-                <!-- /.hover-img -->
+          </div> -->
+          <!-- /.pro-text -->
+        <!-- </div>
+        <div class="col-5"> -->
+          <!-- .pro-text -->
+         <!--  <div class="pro-text"> -->
+            <!-- .pro-img -->
+            <!-- <div class="pro-img">
+              <img src="assets/images/Products/17.jpg" alt="2" /> -->
+              <!-- .hover-img -->
+              <!-- <div class="hover-img">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <!-- /.pro-img -->
-              <a href="#">Wooden container Bowl</a>
-              <a href="#" class="addtocart">+ Add to cart</a>
-              <div class="price">$160.00</div>
-            </div>
-            <!-- /.pro-text -->
-          </div>
-          <div class="col-5">
-            <!-- .pro-text -->
-            <div class="pro-text">
-              <!-- .pro-img -->
-              <div class="pro-img">
-                <img src="assets/images/Products/22.jpg" alt="2" />
-                <!-- .hover-img -->
-                <div class="hover-img">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="new tage">
-                  <span class="new-text">NEW</span>
-                  <span class="pres-text">-15%</span>
-                </div>
-                <!-- /.hover-img -->
+              <div class="discount tage"><span class="discount-text">-15%</span></div> -->
+              <!-- /.hover-img -->
+           <!--  </div> -->
+            <!-- /.pro-img -->
+            <!-- <a href="#">Wooden container Bowl</a>
+            <a href="#" class="addtocart">+ Add to cart</a>
+            <div class="price">$160.00</div>
+          </div> -->
+          <!-- /.pro-text -->
+        <!-- </div>
+        <div class="col-5"> -->
+          <!-- .pro-text -->
+          <!-- <div class="pro-text"> -->
+            <!-- .pro-img -->
+            <!-- <div class="pro-img">
+              <img src="assets/images/Products/22.jpg" alt="2" /> -->
+              <!-- .hover-img -->
+              <!-- <div class="hover-img">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-sliders" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" data-toggle="modal" data-target="#quickModal" data-whatever="@mdo">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <!-- /.pro-img -->
-              <a href="#">Wooden container Bowl</a>
-              <a href="#" class="addtocart">+ Add to cart</a>
-              <div class="price">$160.00</div>
-            </div>
-            <!-- /.pro-text -->
-          </div>
-        </div>
+              <div class="new tage">
+                <span class="new-text">NEW</span>
+                <span class="pres-text">-15%</span>
+              </div> -->
+              <!-- /.hover-img -->
+         <!--    </div> -->
+            <!-- /.pro-img -->
+            <!-- <a href="#">Wooden container Bowl</a>
+            <a href="#" class="addtocart">+ Add to cart</a>
+            <div class="price">$160.00</div>
+          </div> -->
+          <!-- /.pro-text -->
+        <!-- </div>
       </div>
-      <!-- /.new-arrivals -->
-    </section>
-    <section class="client-icon">
+    </div> -->
+    <!-- /.new-arrivals -->
+    <!-- </section> -->
+    <!-- <section class="client-icon">
       <div class="container">
         <ul>
           <li>
@@ -379,8 +419,9 @@
             <a href="#"><img src="assets/images/client-logo5.png" alt="client-logo4" /></a>
           </li>
         </ul>
-      </div>
-    </section>
+      </div> -->
+    <!--     </section> -->
+   
 
     <!-- <section class="section-padding"> -->
     <!-- Latest News -->
@@ -449,7 +490,7 @@
       </div> -->
     <!-- /Latest News -->
     <!--  </section> -->
-    <section class="subscribe text-center">
+    <!-- <section class="subscribe text-center"> -->
       <!-- .subscribe -->
       <!-- <div class="container">
         <h2>Get Discount Info</h2>
@@ -464,7 +505,7 @@
       <!-- /.subscribe -->
     </section>
   </div>
-</template>
+ </template>
 
 <style></style>
 

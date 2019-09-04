@@ -44,8 +44,8 @@
                 <a href="list.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                   <span>Shop TESTING</span>
                 </a>
-                <div class="dropdown-menu dropdownhover-bottom mega-menu" role="menu">
-                  <div class="col-sm-8 col-md-8">
+                <!-- <div class="dropdown-menu dropdownhover-bottom mega-menu" role="menu"> -->
+                <!-- <div class="col-sm-8 col-md-8">
                     <ul>
                       <li><strong>Shop Pages</strong></li>
                       <li><a href="#">Standard Shop Page</a></li>
@@ -76,16 +76,16 @@
                       <li><a href="#">My Account</a></li>
                       <li><a href="#">Checkout</a></li>
                     </ul>
-                  </div>
-                  <div class="col-sm-4 col-md-4">
+                  </div> -->
+                <!-- <div class="col-sm-4 col-md-4">
                     <img src="assets/images/Hover-menu-img.jpg" alt="Hover-menu-img" />
-                  </div>
-                </div>
+                  </div> -->
+                <!-- </div> -->
               </li>
               <li>
-                <a href="#" class="dropdown-toggle"><span>About</span></a>
+                <!-- <a href="#" class="dropdown-toggle"><span>About</span></a> -->
               </li>
-              <li class="dropdown">
+              <!-- <li class="dropdown">
                 <a href="blog.html" data-toggle="dropdown" role="button" aria-expanded="false"><span>Blog</span></a>
                 <ul class="dropdown-menu dropdownhover-bottom" role="menu">
                   <li><a href="blog.html">Blog</a></li>
@@ -94,11 +94,11 @@
                   <li><a href="blog-filter-3-columns.html">Blog Filter 3 Columns</a></li>
                   <li><a href="blog-details.html">Blog Details</a></li>
                 </ul>
-              </li>
+              </li> -->
               <li>
                 <a href="contact.html"><span>Contact</span></a>
               </li>
-              <li class="dropdown">
+              <!-- <li class="dropdown">
                 <a
                   href="gridfull.html"
                   class="dropdown-toggle"
@@ -116,7 +116,7 @@
                   <li><a href="products-detail.html">Products Detail</a></li>
                   <li><a href="products-detail02.html">Products Detail 02</a></li>
                 </ul>
-              </li>
+              </li> -->
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li>
@@ -331,7 +331,7 @@
           >
             <div class="caption">
               <h2 class="animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                H BEAUTIFUL PLANTS
+                OFFICE PLANTS
                 <br />
                 POTTED IN SMART PLANTERS
               </h2>
@@ -404,20 +404,20 @@
           <div class="col-xs-12 col-sm-3 col-md-3">
             <!-- f-weghit2 -->
             <div class="f-weghit2">
-              <h4>Information</h4>
-              <ul>
-                <li><a href="#">About Us</a></li>
+              <!--  <h4>Information</h4> -->
+              <!--  <ul> -->
+              <!-- <li><a href="#">About Us</a></li>
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Delivery Inforamtion</a></li>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms & Condition</a></li>
-              </ul>
+              </ul> -->
             </div>
             <!-- /f-weghit2 -->
           </div>
           <div class="col-xs-12 col-sm-3 col-md-3">
             <!-- f-weghit2 -->
-            <div class="f-weghit2">
+            <!-- <div class="f-weghit2">
               <h4>Customer Service</h4>
               <ul>
                 <li><a href="#">Shipping Policy</a></li>
@@ -427,6 +427,7 @@
                 <li><a href="#">Terms & Conditions</a></li>
               </ul>
             </div>
+ -->
             <!-- /f-weghit2 -->
           </div>
         </div>
@@ -444,16 +445,16 @@
               <div class="f-sicon2">
                 <ul>
                   <li>
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <!-- <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> -->
                   </li>
                   <li>
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <!-- <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> -->
                   </li>
                   <li>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <!-- <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
                   </li>
                   <li>
-                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <!-- <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> -->
                   </li>
                 </ul>
               </div>
