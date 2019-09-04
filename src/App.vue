@@ -316,15 +316,13 @@
           >
             <div class="caption">
               <h2 class="animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                Handmade
+                BEAUTIFUL FLORAL ARRANGEMENTS
                 <br />
-                Hand Carved Coffee
               </h2>
               <p class="animated wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                As rich and unique as the coffee beans it is intended for, this little scoop will make your morning
-                ritual a special occasion every day.
+                Our service area: Manhattan, Brooklyn, Bronx, Queens, Staten Island, Jersey City, Edgewater & Hoboken
               </p>
-              <a data-scroll class="btn get-start animated fadeInUpBig" href="#"><span>view collection</span></a>
+              <!-- <a data-scroll class="btn get-start animated fadeInUpBig" href="#"><span>view collection</span></a> -->
             </div>
           </div>
           <div
@@ -333,15 +331,14 @@
           >
             <div class="caption">
               <h2 class="animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                Handmade
+                H BEAUTIFUL PLANTS
                 <br />
-                Hand Carved Coffee
+                POTTED IN SMART PLANTERS
               </h2>
               <p class="animated wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                As rich and unique as the coffee beans it is intended for, this little scoop will make your morning
-                ritual a special occasion every day.
+                Our service area: Manhattan, Brooklyn, Bronx, Queens, Staten Island, Jersey City, Edgewater & Hoboken
+                <!-- <a data-scroll class="btn get-start animated fadeInUpBig" href="#"><span>view collection</span></a> -->
               </p>
-              <a data-scroll class="btn get-start animated fadeInUpBig" href="#"><span>view collection</span></a>
             </div>
           </div>
           <div
@@ -350,15 +347,14 @@
           >
             <div class="caption">
               <h2 class="animated wow zoomIn" data-wow-duration=".5s" data-wow-delay=".2s">
-                Handmade
+                BEAUTIFUL PLANTS
                 <br />
-                Hand Carved Coffee
+                POTTED IN SMART PLANTERS
               </h2>
               <p class="animated wow fadeIn" data-wow-duration=".2s" data-wow-delay=".1s">
-                As rich and unique as the coffee beans it is intended for, this little scoop will make your morning
-                ritual a special occasion every day.
+                Our service area: Manhattan, Brooklyn, Bronx, Queens, Staten Island, Jersey City, Edgewater & Hoboken
+                <!--  <a data-scroll class="btn get-start animated fadeInUpBig" href="#"><span>view collection</span></a> -->
               </p>
-              <a data-scroll class="btn get-start animated fadeInUpBig" href="#"><span>view collection</span></a>
             </div>
           </div>
           <!-- indicators -->

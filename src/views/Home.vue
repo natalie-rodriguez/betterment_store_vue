@@ -18,7 +18,6 @@
                 <br />
                 <br />
                 <br />
-                <br />
                 <h3>Bella Palm Windowsill White</h3>
                 <p><a href="#">Discover Now</a></p>
               </div>
@@ -38,7 +37,7 @@
                 <br />
                 <br />
                 <br />
-                <br />
+
                 <h3>Bella Palm Rondo - white</h3>
                 <p><a href="#">Discover Now</a></p>
               </div>
@@ -116,9 +115,9 @@
             <!-- /.pro-text -->
           </div>
 
-          <div class="col-md-12 text-center">
+          <!--  <div class="col-md-12 text-center">
             <a href="#" class="lbtn">load more</a>
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- /.new-arrivals -->
@@ -383,9 +382,9 @@
       </div>
     </section>
 
-    <section class="section-padding">
-      <!-- Latest News -->
-      <div class="container">
+    <!-- <section class="section-padding"> -->
+    <!-- Latest News -->
+    <!--    <div class="container">
         <div class="tittle text-center">
           <h2>Our Blog Posts</h2>
           <p>testingg est notare quam littera gothica quam nunc putamus parum claram!</p>
@@ -447,12 +446,12 @@
             </div>
           </div>
         </div>
-      </div>
-      <!-- /Latest News -->
-    </section>
+      </div> -->
+    <!-- /Latest News -->
+    <!--  </section> -->
     <section class="subscribe text-center">
       <!-- .subscribe -->
-      <div class="container">
+      <!-- <div class="container">
         <h2>Get Discount Info</h2>
         <p>
           Subscribe to the Loft and Vine mailing list to receive updates on new arrivals, special offers and
@@ -461,7 +460,7 @@
         </p>
         <input type="text" placeholder="Subscribe to our newsletter..." />
         <input type="button" value="Subscribe" />
-      </div>
+      </div> -->
       <!-- /.subscribe -->
     </section>
   </div>

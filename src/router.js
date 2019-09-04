@@ -9,7 +9,7 @@ import Signup from "./views/signup.vue";
 import Login from "./views/Login.vue";
 import Logout from "./views/Logout.vue";
 import CartedProducts from "./views/CartedProducts.vue";
-
+// import Checkout from "./views/Checkout.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -61,6 +61,11 @@ export default new Router({
       name: "carted_products",
       component: CartedProducts
     },
+    // {
+    //   path: "/checkout",
+    //   name: "checkout",
+    //   component: Checkout
+    // },
     {
       path: "/about",
       name: "about",
