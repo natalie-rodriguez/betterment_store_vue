@@ -41,9 +41,12 @@
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="list.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                  <span>Shop TESTING</span>
-                </a>
+                <!-- <a href="list.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> -->
+                <a href="/about"><span>about</span></a>
+                <!--    </a> -->
+              </li>
+
+              <li>
                 <!-- <div class="dropdown-menu dropdownhover-bottom mega-menu" role="menu"> -->
                 <!-- <div class="col-sm-8 col-md-8">
                     <ul>
@@ -96,7 +99,7 @@
                 </ul>
               </li> -->
               <li>
-                <a href="contact.html"><span>Contact</span></a>
+                <a href="/contact"><span>Contact</span></a>
               </li>
               <!-- <li class="dropdown">
                 <a
@@ -219,13 +222,7 @@
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a
-                    href="list.html"
-                    class="dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-expanded="false"
-                  >
+                  <a href="/about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                     <span>Shop</span>
                   </a>
                   <div class="dropdown-menu dropdownhover-bottom mega-menu" role="menu">

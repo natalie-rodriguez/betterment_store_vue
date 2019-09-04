@@ -113,7 +113,7 @@
                 </li>
               </ul>
               <div class="text-center">
-                <a href="#" class="redbutton">Proceed to checkout</a>
+                <a v-on:click="checkout" class="redbutton">checkout</a>
               </div>
             </div>
           </div>
@@ -147,11 +147,11 @@ export default {
       console.log(response.data);
       this.carted_products = response.data;
 
-      this.carted_products.forEach(carted_products => {
+      this.carted_products.forEach(carted_product => {
         this.subtotal += carted_product.product_price * carted_product.quantity;
       });
 
-      this.carted_products.forEach(carted_products => {
+      this.carted_products.forEach(carted_product => {
         this.total += carted_product.product_price * carted_product.quantity;
       });
     });
@@ -162,6 +162,15 @@ export default {
       subtotal: 0,
       total: 0
     };
+  },
+  methods: {
+    checkout: function() {
+      console.log("testing checkout");
+      axios.post("/api/orders").then(response => {
+        console.log("testing sending an order back");
+        this.$router.push("/orders/" + response.data.id);
+      });
+    }
   }
 };
 </script>
